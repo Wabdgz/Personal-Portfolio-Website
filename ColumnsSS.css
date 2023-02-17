@@ -1,0 +1,141 @@
+#navbar{
+  list-style-type: none;
+  overflow: inherit;
+  position: fixed; 
+  top: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  background-color: teal;  
+    z-index: 9;
+    }
+
+.Skills{
+     margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: purple;
+    border-radius: 25px;
+    }
+
+.Skills1{
+    margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    color: purple;
+    border-radius: 25px;
+    background-color: black;
+  color: white; 
+}
+
+.Homepage{
+    margin: 10px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+   /* color: purple; */
+    border-radius: 25px;   
+}
+
+li {
+  float: left;
+    }
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: black;
+    text-decoration: none;
+    }
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.clearhack:after{
+ content:"";
+ display: table;
+ clear: both; /*clearing the left and right float*/
+}
+
+H2{
+    text-align: center;
+    border: 8px solid teal;
+    background-color: purple;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: teal;
+    padding-top: 75px;
+}
+
+#MainWrap{
+    margin: auto;
+    width: 1092px;
+    border: 8px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: blueviolet;
+}
+
+#left{
+   float: left;
+    padding: 18px;
+    margin: 18px;
+    height: 390px;
+    border: 8px solid teal;
+   border-radius: 25px;
+    width: 239px;   
+    text-align: center;
+    font-size: 30px;
+    background-color: purple;
+}
+
+.heads{
+    font-size: 20px;
+}
+#RowWrap{
+    float: left;
+    margin: 18px;
+    width: 432px;
+}
+
+#top{
+/*    float: left;  */
+    width: 376px;
+    height: 190px;
+    padding: 20px;
+    border: 8px solid teal;
+    background-color: purple;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#bottom{
+    width: 376px;
+    height: 120px;
+    padding: 20px;
+    border: 8px solid teal;
+    background-color: purple;
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#right{
+    float: left;
+    padding: 18px;
+    margin: 18px;
+    height: 390px;
+    border: 8px solid teal;
+    background-color: purple;
+    border-radius: 25px;
+    width: 209px;
+    text-align: center;
+    font-size: 30px;
+    
+}

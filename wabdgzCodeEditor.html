@@ -1,0 +1,48 @@
+<!--
+Walter Beardman
+wabdgz
+9/27/19
+challenge 6: Code Editor
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title id="title">Walter Beardman Code Editor</title>
+    <meta charset ="utf-8">
+   <link rel ="stylesheet" href="CodeEditorSS.css">
+    <script src="CodeEditor.js"></script>
+    
+    <style id="style"></style>
+</head>
+<body>
+    
+    <h1 id="header" ondblclick="titlechange()">Walter's Code Editor</h1>
+    
+<div id="Main" class="clearhack">
+    
+<div id="Columns">
+    
+<!--CSS-->
+<textarea id="defaultcss" class="left" placeholder="CSS" ondblclick="cssdc()" onclick="shadow()"></textarea>
+    
+<!--HTML--> 
+<textarea id="defaulthtml" class="left" placeholder="HTML" ondblclick="hdc()" onclick="shadow()"></textarea>
+    
+    
+
+</div>
+    
+<!--Preview-->
+<div id="preview" class="right"></div>
+     
+<button id="HTML" class="button" onclick="htmlbutton()">HTML</button>
+    
+<button id="CSS" class="button" onclick="cssbutton()">CSS</button>
+    
+<button id="ERASE" class="button" onclick="erase()">ERASE</button>
+</div>
+    
+<a href="wabdgzFlexbox.html"><h4>Back to Projects</h4></a>  
+    
+</body>
+</html>

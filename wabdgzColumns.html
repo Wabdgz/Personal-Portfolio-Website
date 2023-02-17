@@ -1,0 +1,107 @@
+<!--
+Walter Beardman
+wabdgz
+9/6/19
+challenge 3: Multi Column layout
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Walter Beardman Multi Column Layout</title>
+    <meta charset ="utf-8">
+    <link rel ="stylesheet" href="ColumnsSS.css">
+    
+<script>
+    var shiftWindow = function() { scrollBy(0, -50) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+</script>
+    
+</head>
+    
+
+<body>
+
+<ul id="navbar">
+    
+<li><a class="Skills"
+href="index.html">Walter Beardman</a></li>
+        
+ <li><a class="Skills1" href="wabdgzColumns.html">Skills</a></li>
+  
+<li><a class="Skills" href="wabdgzTables.html">Classes Taken</a></li>
+    
+<li><a class="Skills" href="wabdgzFlexbox.html">Projects</a></li>
+</ul>    
+ 
+    <!-- Main Wrapper Div -->
+ <!--    327px
+        +468px
+        +297px
+        physical width = 1092px
+-->
+<div id="MainWrap" class="clearhack">
+    <H2> Skills</H2>
+    
+<!--    16px border   8 left ,  8 right
+        36px padding 18 left , 18 right
+        36px margin  18 left , 18 right
+       239px content 
+    
+        Physical width = 327px
+-->
+    <div id="left"> 
+        Languages
+    <p class="heads">C</p>
+    <p class="heads">BASIC</p>
+    <p class="heads">HTML,CSS</p>
+    <p class="heads">JAVASCRIPT</p>
+    <p class="heads">PHP</p>
+    </div>
+    
+<!--    36px margin 18 left , 18 right
+       432px content
+
+        Physical width = 468px
+-->
+    <div id="RowWrap">
+    
+        <div id="top">Coursework
+        <p class=heads>Algorithm Design</p>
+        <p class="heads">Web Developement</p>
+        <p class="heads">Object Oriented Programming</p>
+        <p class="heads">Visual Design/Video Editing</p>
+        </div> 
+    
+        <div id="bottom">Other
+        <p class="heads">Fitness Activist</p>
+        <p class="heads">People Person</p>
+        </div>
+    
+    </div>
+<!--
+        16px border   8 left , 8 right
+        36px padding 18 left , 18 right
+        36px margin  18 left , 18 right
+       209px content
+
+        Physical width = 297px
+-->
+    <div id="right"> Technologies
+    <p class="heads">PuTTY</p>
+    <p class="heads">GitBash</p>
+    <p class="heads">Brackets</p>
+    <p class="heads">Visual Studios</p>
+    <p class="heads">Adobe Premiere</p>
+    <p class="heads">FileZilla</p>
+    <p class="heads">AWS Server</p>
+    
+    </div>
+    
+    
+</div>
+
+    <p>Last Updated 10/20/2019</p>
+    
+</body>
+</html>
